@@ -1,0 +1,5 @@
+# Used by Streamlit Community Cloud for app deployment.
+# Local development uses pyproject.toml + uv (see README).
+streamlit>=1.40
+pandas>=2.0
+plotly>=5.20

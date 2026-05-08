@@ -1,0 +1,16 @@
+{
+  "submission_type_overrides": {
+    "Helping Support Reproducibility in Research: An introduction to Containers for RSEs": "Workshop",
+    "Trusted Research Environments: Stakeholder-centered design for the future of working with sensitive data": "Workshop",
+    "Designing complex, reusable and scalable scientific workflows with Pydra": "Walkthrough",
+    "GPU code optimization and automatic performance tuning made easy with Kernel Tuner": "Workshop",
+    "How to use and contribute to a software sustainability dashboard": "Workshop",
+    "Using ReFrame for reproducible and portable performance benchmarking": "Workshop",
+    "A continuous integration workflow for HPC using Singularity, HPC-Rocket and FieldCompare": "Walkthrough",
+    "How do we design and deliver sustainable digital research education": "Workshop",
+    "Using SYCLomatic to Make GPU Code Cross-Platform": "Walkthrough",
+    "Carpentries Offline Development Hackathon": "Hackathon",
+    "Firedrake: High productivity FEM simulations utilising sophisticated code generation": "Workshop",
+    "Paths for impactful software: or how to keep research and scientific software relevant for tomorrow": "Talk"
+  }
+}

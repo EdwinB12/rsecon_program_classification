@@ -1,0 +1,13 @@
+[project]
+name = "rsecon-program-classification"
+version = "0.1.0"
+description = "Add your description here"
+requires-python = ">=3.13"
+dependencies = [
+    "anthropic>=0.100.0",
+    "matplotlib>=3.10.9",
+    "pandas>=3.0.2",
+    "plotly>=6.7.0",
+    "pydantic>=2.13.4",
+    "streamlit>=1.57.0",
+]
