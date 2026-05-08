@@ -139,7 +139,7 @@ mask = (
 view = df[mask].copy()
 
 # ================================================== HEADLINE METRICS ====
-m1, m2, m3, m4 = st.columns(4)
+m1, m2, m3, m4, m5 = st.columns(5)
 m1.metric("Submissions", len(view))
 m2.metric("Years", view["year"].nunique() if len(view) else 0)
 m3.metric(
@@ -151,6 +151,12 @@ m3.metric(
 m4.metric(
     "% Research",
     f"{(view['primary_category'] == 'Research').mean() * 100:.0f}%"
+    if len(view)
+    else "—",
+)
+m5.metric(
+    "% Community",
+    f"{(view['primary_category'] == 'Community').mean() * 100:.0f}%"
     if len(view)
     else "—",
 )
