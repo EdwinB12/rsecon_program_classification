@@ -1,0 +1,2 @@
+Use uv for package management.
+
