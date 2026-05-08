@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="en" class="with-tailwind">
+  <head>
+    <meta name="version" content="6b37aea4260341402a6ec8dcf17bad8b1572e1ac">
+    <script src="/config.js"></script>
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>OA Virtual conferences</title>
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link rel="icon" href="/cdn/assets/favicon.svg" type="image/svg+xml" />
+
+     
+              <!-- <!-2- Hotjar Tracking Code for https://virtual.oxfordabstracts.com -2-> -->
+    <script>
+      (function (h, o, t, j, a, r) {
+        h.hj =
+          h.hj ||
+          function () {
+            (h.hj.q = h.hj.q || []).push(arguments);
+          };
+        h._hjSettings = { hjid: 2561673, hjsv: 6 };
+        a = o.getElementsByTagName("head")[0];
+        r = o.createElement("script");
+        r.async = 1;
+        r.src = t + h._hjSettings.hjid + j + h._hjSettings.hjsv;
+        a.appendChild(r);
+      })(window, document, "https://static.hotjar.com/c/hotjar-", ".js?sv=");
+    </script>
+    
+    <script type="module" crossorigin src="/cdn/virtual-conference/assets/index-CWLod1yx.js"></script>
+    <link rel="stylesheet" crossorigin href="/cdn/virtual-conference/assets/index-CCkeChqe.css">
+  </head>
+  <body>
+    <div
+      class="startup-loading-container mt-10 left-0 flex items-center justify-center w-full"
+    >
+      <div class="lds-default">
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
+    </div>
+    <div
+      class="startup-error-container hidden min-h-screen pt-16 pb-12 flex-col bg-white"
+    >
+      <main
+        class="flex-grow flex flex-col justify-center max-w-7xl w-full mx-auto px-4 sm:px-6 lg:px-8"
+      >
+        <div class="flex-shrink-0 flex justify-center">
+          <a href="/" class="inline-flex">
+            <span class="sr-only">Logo</span>
+            <img
+              class="h-24 w-auto"
+              src="/cdn/assets/oa-logo.svg"
+              alt=""
+            />
+          </a>
+        </div>
+        <div class="py-8">
+          <div class="text-center">
+            <h1
+              class="mt-2 text-4xl font-extrabold text-gray-900 tracking-tight sm:text-5xl"
+            >
+              Connection error.
+            </h1>
+            <p class="mt-2 text-base text-gray-500">
+              Sorry, your request to load the app is timing out.
+            </p>
+            <p class="mt-2 text-base text-gray-500">
+              Please check your internet connection and refresh the page.
+            </p>
+            <p class="mt-2 text-base text-gray-500">
+              If the issue continues, try in a different browser and then
+              <a
+                class="text-brand-800 underline"
+                href="mailto:support@oxfordabstracts.com"
+                >contact support</a
+              >
+            </p>
+            <div class="mt-6">
+              <a
+                href="."
+                class="text-base font-medium text-indigo-600 hover:text-indigo-500"
+                >Refresh page<span aria-hidden="true"> &rarr;</span></a
+              >
+            </div>
+          </div>
+        </div>
+      </main>
+    </div>
+    <script>
+      setTimeout(function () {
+        try {
+          document.querySelector(".startup-loading-container").style.display =
+            "none";
+          document.querySelector(".startup-error-container").style.display =
+            "flex";
+        } catch (err) {}
+      }, 60000);
+    </script>
+    
+    
+  </body>
+</html>
+
+https://virtual.oxfordabstracts.com/event/75166/submission/002
