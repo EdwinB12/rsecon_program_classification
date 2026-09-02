@@ -19,7 +19,7 @@ import json
 import sys
 from pathlib import Path
 
-YEARS = [2023, 2024, 2025]
+YEARS = [2023, 2024, 2025, 2026]
 DATA_DIR = Path("data")
 OUTPUT_PATH = Path("classifications.csv")
 EDITS_PATH = DATA_DIR / "data_edits.json"
