@@ -26,7 +26,7 @@ import anthropic
 from pydantic import BaseModel, Field
 
 MODEL = "claude-opus-4-7"
-YEARS = [2023, 2024, 2025]
+YEARS = [2023, 2024, 2025, 2026]
 SECRETS_PATH = Path(".secrets")
 PROMPT_PATH = Path("PROMPT.md")
 CLASSIFICATIONS_PATH = Path("CLASSIFICATIONS.md")

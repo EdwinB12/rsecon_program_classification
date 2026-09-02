@@ -1,0 +1,1082 @@
+[
+  {
+    "id": 1417977,
+    "serial_number": 71,
+    "title": "Causal AI: Evaluating AI Workflows on HPC Environments Using Causal Testing",
+    "submission_type": "Poster & Lightning Talk",
+    "primary_category": "Software",
+    "secondary_category": "Research",
+    "confidence": "High",
+    "reasoning": "An open-source, general-purpose testing tool for AI/ML workflows on HPC — a cross-cutting technique applicable across domains, not tied to a specific scientific question."
+  },
+  {
+    "id": 1406376,
+    "serial_number": 32,
+    "title": "Kill your shell scripts: Reproducible workflow management with Snakemake",
+    "submission_type": "Walkthrough",
+    "primary_category": "Software",
+    "secondary_category": "N/A",
+    "confidence": "High",
+    "reasoning": "Snakemake is a general-purpose workflow management tool applicable across domains, focusing on reproducibility and automation practices for RSEs broadly."
+  },
+  {
+    "id": 1421335,
+    "serial_number": 177,
+    "title": "Coding Confessions: Normalising Failure in Research Software",
+    "submission_type": "Birds of a Feather",
+    "primary_category": "Community",
+    "secondary_category": "N/A",
+    "confidence": "High",
+    "reasoning": "Focuses on RSE mental health, imposter syndrome, and community discussion about failures — a profession/people-focused session."
+  },
+  {
+    "id": 1496562,
+    "serial_number": 219,
+    "title": "Where does the rigor go? Research software and the future of trustworthy science.",
+    "submission_type": null,
+    "primary_category": "Community",
+    "secondary_category": "Software",
+    "confidence": "Medium",
+    "reasoning": "This is a keynote-style talk about the RSE profession's future role in ensuring trustworthy science amid AI, drawing on funder/editor/community perspectives. It's about people, profession, and cross-cutting practice rather than a specific tool or domain."
+  },
+  {
+    "id": 1418995,
+    "serial_number": 84,
+    "title": "Green RSE Special Interest Group: Building a Environmental Skills and Knowledge in the RSE Community.",
+    "submission_type": "Poster & Lightning Talk",
+    "primary_category": "Community",
+    "secondary_category": "Software",
+    "confidence": "High",
+    "reasoning": "This is about a Special Interest Group building community around green/sustainability skills within the RSE profession, including career frameworks and training pathways - clearly Community focused, with sustainability tooling as a secondary theme."
+  },
+  {
+    "id": 1418793,
+    "serial_number": 74,
+    "title": "Using Causal Reasoning to Test Scientific Software",
+    "submission_type": "Walkthrough",
+    "primary_category": "Software",
+    "secondary_category": "N/A",
+    "confidence": "High",
+    "reasoning": "Talk is about a general-purpose testing technique/framework (Causal Testing Framework) applicable across scientific software domains, not tied to one discipline."
+  },
+  {
+    "id": 1421215,
+    "serial_number": 166,
+    "title": "Geoscience RSE SIG Annual Meeting: Challenges and Opportunities of RSE Careers in Geosciences",
+    "submission_type": "Birds of a Feather",
+    "primary_category": "Community",
+    "secondary_category": "Research",
+    "confidence": "High",
+    "reasoning": "This is a SIG annual meeting focused on community building, career pathways, and connecting RSEs within a domain area. Though it's geoscience-focused, the emphasis is on the profession, careers, and community rather than specific research software or scientific questions."
+  },
+  {
+    "id": 1419381,
+    "serial_number": 94,
+    "title": "From Fragmented Tools to FAIR Research Infrastructure in Biologics Discovery",
+    "submission_type": "Talk",
+    "primary_category": "Research",
+    "secondary_category": "Software",
+    "confidence": "Medium",
+    "reasoning": "The talk describes software infrastructure built specifically for biologics discovery (antibody cloning, DNA ordering) — a domain-specific research workflow, though it also highlights general RSE practices and FAIR principles."
+  },
+  {
+    "id": 1419545,
+    "serial_number": 104,
+    "title": "A Community-Owned Database Mapping dRTP Roles, Skills, and Training",
+    "submission_type": "Poster & Lightning Talk",
+    "primary_category": "Community",
+    "secondary_category": "N/A",
+    "confidence": "High",
+    "reasoning": "This is about mapping RSE roles, skills, and training - clearly about the profession and community development, not a specific tool or research domain."
+  },
+  {
+    "id": 1419408,
+    "serial_number": 97,
+    "title": "MetSTAC: Building STAC Catalogs for Machine‑Learning‑Ready Data",
+    "submission_type": "Poster & Lightning Talk",
+    "primary_category": "Research",
+    "secondary_category": "Software",
+    "confidence": "Medium",
+    "reasoning": "MetSTAC is built for meteorological/climate ML data at the Met Office, but the approach and tool are cross-cutting metadata infrastructure applicable to any data-intensive domain, centering on FAIR principles and STAC standards."
+  },
+  {
+    "id": 1419125,
+    "serial_number": 86,
+    "title": "Cloud Cybersecurity for Research Engineers",
+    "submission_type": "Walkthrough",
+    "primary_category": "Software",
+    "secondary_category": "N/A",
+    "confidence": "High",
+    "reasoning": "Cross-cutting best practices for cloud cybersecurity applicable to RSEs broadly, not tied to a specific research domain despite the patient data example."
+  },
+  {
+    "id": 1419134,
+    "serial_number": 87,
+    "title": "From Antibody Clones to DNA Order: RSEs Streamlining Biologics Discovery",
+    "submission_type": "Poster & Lightning Talk",
+    "primary_category": "Research",
+    "secondary_category": "Software",
+    "confidence": "High",
+    "reasoning": "This is about software built for a specific domain (antibody cloning/biologics discovery), a domain-specific workflow automation. Cannot be explained without naming the discipline."
+  },
+  {
+    "id": 1416438,
+    "serial_number": 55,
+    "title": "Slurm prioritisation and how to avoid jobs queuing forever while getting more through the system",
+    "submission_type": "Talk",
+    "primary_category": "Software",
+    "secondary_category": "N/A",
+    "confidence": "High",
+    "reasoning": "Talk is about Slurm job scheduling on HPC systems — a general-purpose cross-cutting tool/technique applicable across research domains."
+  },
+  {
+    "id": 1416445,
+    "serial_number": 56,
+    "title": "Automatic Transcription: Building a Safe, On-Premises Service for Sensitive Research Data",
+    "submission_type": "Talk",
+    "primary_category": "Software",
+    "secondary_category": "Community",
+    "confidence": "Medium",
+    "reasoning": "Scriber is a general-purpose transcription service applicable across qualitative research domains, focusing on software engineering, deployment, and institutional integration rather than a specific scientific question. Strong community/institutional translation angle as secondary."
+  },
+  {
+    "id": 1408818,
+    "serial_number": 40,
+    "title": "Research Software Engineering and Fault-tolerant Quantum Computing",
+    "submission_type": "Talk",
+    "primary_category": "Research",
+    "secondary_category": "Community",
+    "confidence": "Medium",
+    "reasoning": "This talk is about how software engineering (including RSE) is applied to build quantum computers at a specific company, focusing on a specific domain (quantum computing hardware/software). It's domain-specific research software, though it also touches on RSE career accessibility."
+  },
+  {
+    "id": 1416676,
+    "serial_number": 57,
+    "title": "A pitch for sustainable career pathways for digital research technical professionals (dRTPs)",
+    "submission_type": "Poster & Lightning Talk",
+    "primary_category": "Community",
+    "secondary_category": "N/A",
+    "confidence": "High",
+    "reasoning": "This is about career pathways, retention, and professional development for RSEs/dRTPs at a university—clearly about people and the profession."
+  },
+  {
+    "id": 1385885,
+    "serial_number": 19,
+    "title": "PyEarthTools: Accelerating the use of machine learning for reproducible environmental science",
+    "submission_type": "Walkthrough",
+    "primary_category": "Research",
+    "secondary_category": "Software",
+    "confidence": "High",
+    "reasoning": "PyEarthTools is a domain-specific tool built for environmental science ML pipelines, tied to that discipline's data patterns."
+  },
+  {
+    "id": 1419493,
+    "serial_number": 103,
+    "title": "Building a Reproducibility Check Service for Computational Research",
+    "submission_type": "Talk",
+    "primary_category": "Community",
+    "secondary_category": "Software",
+    "confidence": "Medium",
+    "reasoning": "This talk describes an institutional service/initiative for reproducibility checks across research outputs, focusing on cross-cutting reproducibility practice and RSE team implementation recommendations. It's about a profession-wide/institutional initiative rather than a specific tool or scientific domain."
+  },
+  {
+    "id": 1419276,
+    "serial_number": 90,
+    "title": "From reinventing the wheel to building bicycles",
+    "submission_type": "Poster & Lightning Talk",
+    "primary_category": "Community",
+    "secondary_category": "N/A",
+    "confidence": "High",
+    "reasoning": "This is about mapping DRI-funded skills/people initiatives across research councils to foster collaboration—clearly about the profession, funding landscape, and community coordination rather than a specific tool or research domain."
+  },
+  {
+    "id": 1418869,
+    "serial_number": 75,
+    "title": "Porting GLASS to the Python Array API: A Clear View to GPU Portability.",
+    "submission_type": "Poster & Lightning Talk",
+    "primary_category": "Research",
+    "secondary_category": "Software",
+    "confidence": "Medium",
+    "reasoning": "GLASS is a cosmology-specific library for galaxy surveys, so the work is tied to a research domain, though the talk emphasizes general porting techniques (Array API, GPU portability) applicable more broadly."
+  },
+  {
+    "id": 1419302,
+    "serial_number": 91,
+    "title": "Accelerating Machine Learning Research in Fusion Through a Pydantic‑Centred Human‑in‑the‑Loop Architecture",
+    "submission_type": "Poster & Lightning Talk",
+    "primary_category": "Research",
+    "secondary_category": "Software",
+    "confidence": "High",
+    "reasoning": "The talk describes a domain-specific annotation platform (TokTagger) built for nuclear fusion tokamak diagnostic data, purpose-built for a specific scientific need. While it uses general tools (Pydantic, Ray, MongoDB), the artifact is clearly tied to fusion research."
+  },
+  {
+    "id": 1418946,
+    "serial_number": 79,
+    "title": "From Model to Scenario Engine: A Reproducible ABM for UK Net Zero Analysis",
+    "submission_type": "Talk",
+    "primary_category": "Research",
+    "secondary_category": "Software",
+    "confidence": "Medium",
+    "reasoning": "The talk centers on transforming an ABM for UK Net Zero policy analysis - a specific domain application - though it also emphasizes general software engineering practices for stochastic ABMs that could apply broadly."
+  },
+  {
+    "id": 1418959,
+    "serial_number": 81,
+    "title": "FORGE: tackling four decades of technical debt in an operational forecasting system",
+    "submission_type": "Talk",
+    "primary_category": "Software",
+    "secondary_category": "Research",
+    "confidence": "Medium",
+    "reasoning": "The talk centers on modernizing ECMWF's forecasting system (weather/climate domain-specific software), but the focus is on cross-cutting RSE practices: testing strategies, CI/CD, open-sourcing, and technical debt management. Since it's explicitly framed as a case study for the RSE community with generalizable lessons, Software leads, but the domain-specific nature makes Research a strong secondary."
+  },
+  {
+    "id": 1418966,
+    "serial_number": 83,
+    "title": "Detecting novel biothreats from global news with AI – from research to production deployment in the Cabinet Office National Situation Centre",
+    "submission_type": "Talk",
+    "primary_category": "Research",
+    "secondary_category": "Software",
+    "confidence": "Medium",
+    "reasoning": "The talk centers on a domain-specific tool (Biothreat Media Analyser) built for biothreat detection, but emphasizes generalizable patterns for productionising AI research. It's a case study of a specific application, making it Research, with Software as secondary due to the transferable engineering lessons."
+  },
+  {
+    "id": 1418132,
+    "serial_number": 73,
+    "title": "HPCRSE@RSECon26: 5th annual meeting of the HPC RSE community",
+    "submission_type": "Birds of a Feather",
+    "primary_category": "Community",
+    "secondary_category": "N/A",
+    "confidence": "High",
+    "reasoning": "This is a SIG meeting focused on community-building among HPC RSEs, peer support, and networking within the profession."
+  },
+  {
+    "id": 1421906,
+    "serial_number": 210,
+    "title": "A pragmatic Approach to Technology Selection for RSEs: Lessons from iDiabetes",
+    "submission_type": "Talk",
+    "primary_category": "Software",
+    "secondary_category": "Research",
+    "confidence": "Medium",
+    "reasoning": "The talk uses a specific diabetes clinical trial platform (iDiabetes) as a case study, but its core message is about general RSE practice around technology selection, sustainability, and decision-making. The lessons are cross-cutting for RSEs, though grounded in a domain-specific example."
+  },
+  {
+    "id": 1421920,
+    "serial_number": 211,
+    "title": "Reproducibility without compromise: Guix and ravanan",
+    "submission_type": "Talk",
+    "primary_category": "Software",
+    "secondary_category": "N/A",
+    "confidence": "High",
+    "reasoning": "Introduces general-purpose reproducibility tools (Guix package manager and ravanan CWL workflow engine) applicable across research domains."
+  },
+  {
+    "id": 1421020,
+    "serial_number": 161,
+    "title": "RSEs as trainers – the who, why and how of providing digital research skills training",
+    "submission_type": "Birds of a Feather",
+    "primary_category": "Community",
+    "secondary_category": "N/A",
+    "confidence": "High",
+    "reasoning": "This BoF focuses on RSEs as trainers, their career paths, institutional recognition, and community models for delivering training — clearly about people and profession."
+  },
+  {
+    "id": 1421073,
+    "serial_number": 162,
+    "title": "Hands-on with DashVERSE: Building and Customizing Research Software Quality Dashboards",
+    "submission_type": "Workshop",
+    "primary_category": "Software",
+    "secondary_category": "Community",
+    "confidence": "High",
+    "reasoning": "DashVERSE is a general-purpose, cross-cutting tool for monitoring research software quality and FAIR compliance, applicable across domains. It's a workshop about a software tool for RSEs as a population."
+  },
+  {
+    "id": 1419895,
+    "serial_number": 109,
+    "title": "From research models to a journalist's browser: an RSE story from a 140,000-user verification tool",
+    "submission_type": "Talk",
+    "primary_category": "Research",
+    "secondary_category": "Software",
+    "confidence": "Medium",
+    "reasoning": "Case study of a specific tool (Verification Assistant) built for journalists/fact-checkers to combat disinformation using NLP classifiers - this is a domain-specific application (journalism/verification), making it Research. Secondary is Software since it also discusses architecture, APIs, and RSE practices for maintaining research software."
+  },
+  {
+    "id": 1413214,
+    "serial_number": 52,
+    "title": "Lost in translation? Using the Up Goer Five Challenge to help wonder-driven computer people explain themselves to others.",
+    "submission_type": "Talk",
+    "primary_category": "Community",
+    "secondary_category": "N/A",
+    "confidence": "High",
+    "reasoning": "This talk is about communicating and defining the RSE/Digital Research Technical Profession to various audiences, centering on profession identity and visibility - clearly a Community topic."
+  },
+  {
+    "id": 1421159,
+    "serial_number": 165,
+    "title": "Zarr-Cesium: Browser-Native Visualisation of Terabyte-Scale Multidimensional Scientific Data Without Backend Infrastructure",
+    "submission_type": "Talk",
+    "primary_category": "Research",
+    "secondary_category": "Software",
+    "confidence": "Medium",
+    "reasoning": "Zarr-Cesium is a tool built for environmental/geospatial scientific visualization, tied to a specific domain (environmental sciences, oceanography). However, the library itself is fairly general-purpose for multidimensional array visualization. It leans toward Research due to domain-specific focus (CF-compliant metadata, geospatial)."
+  },
+  {
+    "id": 1419987,
+    "serial_number": 112,
+    "title": "UpStacked: A Full-Stack Platform for Inspecting the Evolution of Open-Source Dependencies in Research Software Ecosystems",
+    "submission_type": "Poster & Lightning Talk",
+    "primary_category": "Software",
+    "secondary_category": "N/A",
+    "confidence": "High",
+    "reasoning": "UpStacked is a general-purpose tool for monitoring OSS dependency updates, applicable across research software engineering broadly, though it mentions bioinformatics as one domain."
+  },
+  {
+    "id": 1421541,
+    "serial_number": 195,
+    "title": "Plotting the route from research engineering to policy: a Quarto geospatial analytics toolkit built with and for local government",
+    "submission_type": "Talk",
+    "primary_category": "Research",
+    "secondary_category": "Community",
+    "confidence": "Medium",
+    "reasoning": "This is about a domain-specific toolkit built for transport policy analysis with local government, using geospatial transport data. It's purpose-built for a particular applied domain (transport/policy analytics), fitting Research category (a). Community aspect (RSE-government collaboration) is secondary."
+  },
+  {
+    "id": 1421248,
+    "serial_number": 170,
+    "title": "Making Research Software FAIR with CodeMeta",
+    "submission_type": "Workshop",
+    "primary_category": "Software",
+    "secondary_category": "Community",
+    "confidence": "Medium",
+    "reasoning": "CodeMeta is a cross-cutting metadata standard for making research software FAIR, applicable across domains. It's a general tooling/practice workshop, though FAIR advocacy also touches community/profession-wide initiatives."
+  },
+  {
+    "id": 1352392,
+    "serial_number": 4,
+    "title": "crawlR: A Large-Scale Analysis of the R Ecosystem Using Static Program Analysis",
+    "submission_type": "Poster & Lightning Talk",
+    "primary_category": "Software",
+    "secondary_category": "Research",
+    "confidence": "Medium",
+    "reasoning": "This talk presents a static analysis framework (flowR) and a large-scale analysis of the R package ecosystem, focusing on general software quality, reproducibility, and reusability concerns. While R is used in research, the analysis is cross-cutting across all R packages rather than domain-specific."
+  },
+  {
+    "id": 1420162,
+    "serial_number": 114,
+    "title": "Emerging Practices for AI in Research Software Engineering: A Spectrum from EVERSE RSQKit",
+    "submission_type": "Talk",
+    "primary_category": "Software",
+    "secondary_category": "Community",
+    "confidence": "Medium",
+    "reasoning": "Talk presents a general framework/spectrum for using AI tools in RSE practice, cross-cutting across domains, focused on software engineering practices and quality. Ties to EVERSE's community framework give it a community angle."
+  },
+  {
+    "id": 1420196,
+    "serial_number": 115,
+    "title": "AppHatchery: From Service Team to Research Partner — Six Years of Building Digital Health Tools and Infrastructure That Last",
+    "submission_type": "Talk",
+    "primary_category": "Community",
+    "secondary_category": "Research",
+    "confidence": "Medium",
+    "reasoning": "This is about the evolution of an RSE team/group, sustainability models, and how they operate as a service/research partner. It's about the profession and team-building rather than a specific tool or a research domain application."
+  },
+  {
+    "id": 1421328,
+    "serial_number": 176,
+    "title": "Lessons from Mapping and evaluating dRTP’s contributions to computing skill and pedagogies in HE",
+    "submission_type": "Talk",
+    "primary_category": "Community",
+    "secondary_category": "Research",
+    "confidence": "High",
+    "reasoning": "This talk maps digital research technical professionals' role in teaching and training across UK higher education, focusing on the profession, pedagogy, and curriculum recommendations — a community/profession-wide initiative."
+  },
+  {
+    "id": 1421347,
+    "serial_number": 178,
+    "title": "Engineering PharosAI: A Federated AI Platform Providing Access to the UK’s Largest Multimodal Biomedical Dataset for Cancer Research",
+    "submission_type": "Talk",
+    "primary_category": "Research",
+    "secondary_category": "Software",
+    "confidence": "High",
+    "reasoning": "PharosAI is a platform purpose-built for cancer/biomedical research, harmonizing genomics, pathology, and radiology data - clearly domain-specific research infrastructure. Secondary aspects touch on RSE roles and infrastructure practices."
+  },
+  {
+    "id": 1421394,
+    "serial_number": 179,
+    "title": "Neurodiversity, work structure, and support in Research Software Engineering: an InclusiveRSE and SSI Fellowship survey study",
+    "submission_type": "Poster & Lightning Talk",
+    "primary_category": "Community",
+    "secondary_category": "N/A",
+    "confidence": "High",
+    "reasoning": "This is about neurodiversity, mental health, and inclusion within the RSE profession - clearly about people and the profession, a community initiative."
+  },
+  {
+    "id": 1421404,
+    "serial_number": 180,
+    "title": "Research-ready infrastructure for secure mental health data analyses",
+    "submission_type": "Poster & Lightning Talk",
+    "primary_category": "Research",
+    "secondary_category": "Software",
+    "confidence": "Medium",
+    "reasoning": "This talk describes a trusted research environment purpose-built for mental health data analyses in partnership with an NHS Trust. It's domain-specific infrastructure (mental health research), though TREs are a somewhat cross-cutting concept."
+  },
+  {
+    "id": 1408811,
+    "serial_number": 39,
+    "title": "PEtab SciML: a format specification for solving parameter estimation problems using scientific machine learning in computational biology and beyond",
+    "submission_type": "Talk",
+    "primary_category": "Research",
+    "secondary_category": "Software",
+    "confidence": "Medium",
+    "reasoning": "PEtab SciML is a format specification originally rooted in computational biology but positioned as applicable beyond, for parameter estimation with SciML. It's a domain-originated tool (systems biology) with cross-cutting potential."
+  },
+  {
+    "id": 1421487,
+    "serial_number": 184,
+    "title": "Ten years of RSECon: what a decade of presentations tells us about the community",
+    "submission_type": "Poster & Lightning Talk",
+    "primary_category": "Community",
+    "secondary_category": "N/A",
+    "confidence": "High",
+    "reasoning": "This poster analyzes a decade of RSECon presentations to reflect on the evolution of the RSE community itself, focusing on community priorities and profession-wide trends."
+  },
+  {
+    "id": 1421507,
+    "serial_number": 188,
+    "title": "Building multi-user LLM Inference Services for Research",
+    "submission_type": "Talk",
+    "primary_category": "Software",
+    "secondary_category": "N/A",
+    "confidence": "High",
+    "reasoning": "This is about deploying a general-purpose LLM inference service for research users, focused on cross-cutting infrastructure (HPC, MLOps, security), not a specific research domain."
+  },
+  {
+    "id": 1421518,
+    "serial_number": 191,
+    "title": "Do All RSE Communities Grow the Same Way?",
+    "submission_type": "Poster & Lightning Talk",
+    "primary_category": "Community",
+    "secondary_category": "N/A",
+    "confidence": "High",
+    "reasoning": "This is about RSE community development, recognition, and profession-building across global regions, clearly focused on people and the profession."
+  },
+  {
+    "id": 1421520,
+    "serial_number": 192,
+    "title": "Building a virtual research environment (almost) from scratch for the Heritage Science Data Service",
+    "submission_type": "Talk",
+    "primary_category": "Research",
+    "secondary_category": "Software",
+    "confidence": "Medium",
+    "reasoning": "The talk describes building a Virtual Research Environment specifically for heritage science, but focuses on architecture decisions and lessons transferable to RSEs building bespoke environments. It's a domain-specific platform (heritage science) but the transferable lessons lean general."
+  },
+  {
+    "id": 1369652,
+    "serial_number": 10,
+    "title": "ePRaSE - an NHS system optimisation tool designed to reduce the levels of patient harms and death attributed to e-prescribing errors",
+    "submission_type": "Talk",
+    "primary_category": "Research",
+    "secondary_category": "N/A",
+    "confidence": "High",
+    "reasoning": "A domain-specific tool built for NHS e-prescribing safety evaluation; can't be explained without the clinical/healthcare domain."
+  },
+  {
+    "id": 1417609,
+    "serial_number": 65,
+    "title": "RSE who? A guided walk-through of 10 years of RSE Survey data",
+    "submission_type": "Walkthrough",
+    "primary_category": "Community",
+    "secondary_category": "Software",
+    "confidence": "High",
+    "reasoning": "This talk analyzes a decade of survey data about RSEs as a profession, exploring their roles, careers, and views — a community/profession-focused submission. The dashboard is a supporting tool but the focus is community insight."
+  },
+  {
+    "id": 1421567,
+    "serial_number": 201,
+    "title": "AI tools adoption at the UK's national institute for AI",
+    "submission_type": "Talk",
+    "primary_category": "Software",
+    "secondary_category": "Community",
+    "confidence": "Medium",
+    "reasoning": "Talk covers organisational adoption of AI tools (cross-cutting software/practices) and building a community of practice across teams. It's about general-purpose LLM tooling adoption plus profession/community aspects."
+  },
+  {
+    "id": 1420520,
+    "serial_number": 123,
+    "title": "Common challenges faced by RSE groups in the UK, and current solutions to support their contributions to research and career pathways: an interview study",
+    "submission_type": "Talk",
+    "primary_category": "Community",
+    "secondary_category": "N/A",
+    "confidence": "High",
+    "reasoning": "This talk analyzes RSE career pathways, group structures, and promotion processes across UK institutions - clearly about the RSE profession and people."
+  },
+  {
+    "id": 1368810,
+    "serial_number": 9,
+    "title": "Evolving Research Code into Research Software: A Graph-Based Architecture for CodeEntropy",
+    "submission_type": "Talk",
+    "primary_category": "Research",
+    "secondary_category": "Software",
+    "confidence": "Medium",
+    "reasoning": "This is a case study of a specific domain tool (CodeEntropy for molecular dynamics/drug discovery), but the talk's focus is on general software architecture lessons (DAG-based design, evolving research code into sustainable software) applicable across domains."
+  },
+  {
+    "id": 1420558,
+    "serial_number": 125,
+    "title": "Helping Researchers Find The Way: Optimising the Preparation of Analytical-Ready Geospatial Datasets",
+    "submission_type": "Talk",
+    "primary_category": "Research",
+    "secondary_category": "Software",
+    "confidence": "Medium",
+    "reasoning": "This talk describes a domain-specific application: preparing geospatial datasets (routes to GP surgeries in Scotland) for researchers. While there's a generic framework aspect, it's tied to a specific research domain (public health/geospatial research)."
+  },
+  {
+    "id": 1420591,
+    "serial_number": 128,
+    "title": "The Fortitude Linter: Don’t Blame your Tools; Build Them",
+    "submission_type": "Research Software Publication (Talk)",
+    "primary_category": "Software",
+    "secondary_category": "Community",
+    "confidence": "High",
+    "reasoning": "Talk is about Fortitude, a general-purpose Fortran linter tool that applies across research software projects, and advocates contributing to tooling. It's a cross-cutting software engineering tool."
+  },
+  {
+    "id": 1420599,
+    "serial_number": 129,
+    "title": "How FAIR is Research Software?",
+    "submission_type": "Poster & Lightning Talk",
+    "primary_category": "Community",
+    "secondary_category": "Research",
+    "confidence": "Medium",
+    "reasoning": "This is a study on FAIR4RS compliance across research software artefacts — a profession-wide policy/standards initiative, not a specific tool or domain research."
+  },
+  {
+    "id": 1412916,
+    "serial_number": 50,
+    "title": "Text Lab: Secure NLP and LLM Workflows for Researchers on HPC",
+    "submission_type": "Poster & Lightning Talk",
+    "primary_category": "Software",
+    "secondary_category": "N/A",
+    "confidence": "High",
+    "reasoning": "Text Lab is a general-purpose NLP/LLM platform serving researchers across domains via HPC infrastructure, focused on making AI infrastructure usable and reproducible rather than answering a specific research question."
+  },
+  {
+    "id": 1417807,
+    "serial_number": 69,
+    "title": "The RSE as Translator: Bridging Researchers and Research Infrastructure through DAFNI",
+    "submission_type": "Talk",
+    "primary_category": "Community",
+    "secondary_category": "Software",
+    "confidence": "Medium",
+    "reasoning": "The talk centers on the RSE role, hybrid technical/community-facing responsibilities, and recognition of these contributions as core to research, though grounded in experience with DAFNI infrastructure."
+  },
+  {
+    "id": 1421698,
+    "serial_number": 207,
+    "title": "From Health Economic Models to Decision Support Software: A MedSID/PINCER Researcher RSE Collaboration.",
+    "submission_type": "Poster & Lightning Talk",
+    "primary_category": "Research",
+    "secondary_category": "Community",
+    "confidence": "Medium",
+    "reasoning": "Domain-specific software (health economic models for prescribing safety) built for healthcare decision-making, making it Research. The collaboration/upskilling angle adds a Community dimension."
+  },
+  {
+    "id": 1420685,
+    "serial_number": 136,
+    "title": "Engineering ASPACE (https://mspace.ac.uk/): Lessons Learned in Research Software Engineering from climate change adaptation research to a decision-support tool",
+    "submission_type": "Talk",
+    "primary_category": "Research",
+    "secondary_category": "Software",
+    "confidence": "High",
+    "reasoning": "ASPACE is a domain-specific tool built for marine spatial planning and climate change adaptation research; the talk centers on this specific scientific application, though it also shares general RSE lessons learned."
+  },
+  {
+    "id": 1420733,
+    "serial_number": 140,
+    "title": "Hiring for diversity and inclusion in digital Research Technology Professional roles",
+    "submission_type": "Birds of a Feather",
+    "primary_category": "Community",
+    "secondary_category": "N/A",
+    "confidence": "High",
+    "reasoning": "Focuses on EDIA hiring practices for RSE profession — clearly about people and the profession, community-building."
+  },
+  {
+    "id": 1420759,
+    "serial_number": 142,
+    "title": "What next for the RSE movement in the UK?",
+    "submission_type": "Birds of a Feather",
+    "primary_category": "Community",
+    "secondary_category": "N/A",
+    "confidence": "High",
+    "reasoning": "This session is about the future of the RSE movement itself, covering career progression, professional recognition, training, and community direction — squarely about people and the profession."
+  },
+  {
+    "id": 1420834,
+    "serial_number": 146,
+    "title": "Training the Trainers: Community-Led Bioinformatics Training with Bioconductor Across Africa",
+    "submission_type": "Talk",
+    "primary_category": "Community",
+    "secondary_category": "Research",
+    "confidence": "High",
+    "reasoning": "Focus is on training researchers, building local instructor capacity, and community-led capacity-building across Africa, which is about people and the profession, though anchored in the Bioconductor bioinformatics ecosystem."
+  },
+  {
+    "id": 1420842,
+    "serial_number": 147,
+    "title": "TCTrack: Working with researchers to enable FAIR tropical cyclone tracking",
+    "submission_type": "Research Software Publication (Talk)",
+    "primary_category": "Research",
+    "secondary_category": "Software",
+    "confidence": "High",
+    "reasoning": "TCTrack is a domain-specific tool built for tropical cyclone research, applying FAIR principles to that specific scientific need."
+  },
+  {
+    "id": 1420881,
+    "serial_number": 151,
+    "title": "Optimising Julia code on GPUs: Case studies from ocean and atmosphere modelling",
+    "submission_type": "Talk",
+    "primary_category": "Software",
+    "secondary_category": "Research",
+    "confidence": "Medium",
+    "reasoning": "The talk focuses on GPU optimization techniques in Julia, which is a general cross-cutting software/performance topic, though illustrated via ocean/atmosphere modelling case studies."
+  },
+  {
+    "id": 1417554,
+    "serial_number": 64,
+    "title": "The Hubverse: Streamlining Collaborative Infectious Disease Modeling for Public Health Impact",
+    "submission_type": "Talk",
+    "primary_category": "Research",
+    "secondary_category": "Software",
+    "confidence": "High",
+    "reasoning": "The hubverse is a software ecosystem purpose-built for infectious disease modeling and public health decision-making, a specific research domain."
+  },
+  {
+    "id": 1420620,
+    "serial_number": 134,
+    "title": "Better Software Funding, Better Research Software? What we’ve learned from the Research Software Maintenance Fund and what you should know about getting funding for software development",
+    "submission_type": "Talk",
+    "primary_category": "Community",
+    "secondary_category": "Software",
+    "confidence": "High",
+    "reasoning": "This talk is about a funding initiative for research software sustainability, discussing the funding landscape and profession-wide support mechanisms — a community/profession-level topic rather than a specific tool or domain."
+  },
+  {
+    "id": 1420943,
+    "serial_number": 155,
+    "title": "Understanding the community health of research software",
+    "submission_type": "Talk",
+    "primary_category": "Community",
+    "secondary_category": "Software",
+    "confidence": "Medium",
+    "reasoning": "This talk is about assessing community health of research software projects using CHAOSS metrics and Augur, analyzing JOSS-published software. It centers on profession-wide/community measurement rather than a specific tool for a domain or general-purpose SE tooling."
+  },
+  {
+    "id": 1420959,
+    "serial_number": 157,
+    "title": "Finding the thin ice before you fall through: identifying the critical software you rely on",
+    "submission_type": "Workshop",
+    "primary_category": "Software",
+    "secondary_category": "Community",
+    "confidence": "Medium",
+    "reasoning": "This workshop is about identifying critical software dependencies and risks - a cross-cutting sustainability/risk management practice applicable to all RSEs, not tied to a specific domain. It has community/policy elements through SSI recommendations for UKRI infrastructure."
+  },
+  {
+    "id": 1421891,
+    "serial_number": 209,
+    "title": "Using nanopublications in research software development",
+    "submission_type": "Walkthrough",
+    "primary_category": "Software",
+    "secondary_category": "Community",
+    "confidence": "Medium",
+    "reasoning": "Nanopublications as a cross-cutting practice/tool for documenting research software development, applicable across domains. It's a general technique for RSEs, with elements of FAIR/scholarly infrastructure."
+  },
+  {
+    "id": 1417684,
+    "serial_number": 67,
+    "title": "Marimo: The Antidote to Notebooks",
+    "submission_type": "Walkthrough",
+    "primary_category": "Software",
+    "secondary_category": "N/A",
+    "confidence": "High",
+    "reasoning": "Talk about Marimo, a general-purpose notebook tool addressing Jupyter's shortcomings, applicable across research domains."
+  },
+  {
+    "id": 1358070,
+    "serial_number": 7,
+    "title": "ConveRSE - Reflections on a year of talking about Mental Health in the Research Software Community",
+    "submission_type": "Talk",
+    "primary_category": "Community",
+    "secondary_category": "N/A",
+    "confidence": "High",
+    "reasoning": "Talk centers on mental health in the RSE community, leadership, team culture, and profession-wide initiatives - clearly about people and the profession."
+  },
+  {
+    "id": 1423946,
+    "serial_number": 218,
+    "title": "Estimating the environmental impact of an HPC job – tools and challenges",
+    "submission_type": "Poster & Lightning Talk",
+    "primary_category": "Software",
+    "secondary_category": "Community",
+    "confidence": "Medium",
+    "reasoning": "About tools for estimating environmental impact of HPC jobs - a cross-cutting sustainability tooling topic applicable across research domains."
+  },
+  {
+    "id": 1371622,
+    "serial_number": 12,
+    "title": "Back to the Fortran Future",
+    "submission_type": "Talk",
+    "primary_category": "Community",
+    "secondary_category": "Software",
+    "confidence": "Medium",
+    "reasoning": "Focuses on building and sustaining the Fortran RSE community, community development work, and a roadmap for the profession around Fortran-based science, rather than a specific tool or research domain."
+  },
+  {
+    "id": 1373779,
+    "serial_number": 15,
+    "title": "“Extraordinary claims require extraordinary evidence” – proactively evidencing research software impact",
+    "submission_type": "Talk",
+    "primary_category": "Community",
+    "secondary_category": "Software",
+    "confidence": "High",
+    "reasoning": "This talk is about evidencing research software impact for career progression, REF, and professional recognition — centred on the RSE profession rather than a specific tool or scientific domain."
+  },
+  {
+    "id": 1379395,
+    "serial_number": 16,
+    "title": "PolarRoute: Optimal maritime routing for the RRS Sir David Attenborough through sea ice",
+    "submission_type": "Poster & Lightning Talk",
+    "primary_category": "Research",
+    "secondary_category": "Software",
+    "confidence": "High",
+    "reasoning": "This is a domain-specific tool (maritime routing through sea ice for Antarctic research vessel) built for polar/oceanographic operations — Research per test (a)."
+  },
+  {
+    "id": 1498831,
+    "serial_number": 220,
+    "title": "BioFAIR: Digital Research Infrastructure for Life Sciences in the UK",
+    "submission_type": "Talk",
+    "primary_category": "Research",
+    "secondary_category": "Community",
+    "confidence": "Medium",
+    "reasoning": "BioFAIR is a domain-specific (life sciences) digital research infrastructure, making it Research-flavoured, but the talk emphasizes FAIR principles, community-building, and RSE engagement across the sector, which is Community-oriented."
+  },
+  {
+    "id": 1356244,
+    "serial_number": 6,
+    "title": "HPC Carpentry",
+    "submission_type": "Talk",
+    "primary_category": "Community",
+    "secondary_category": "Software",
+    "confidence": "High",
+    "reasoning": "HPC Carpentry is a training/curriculum initiative for teaching HPC skills to novices, focused on community-wide training programs and profession-building rather than a specific tool or research domain."
+  },
+  {
+    "id": 1498840,
+    "serial_number": 221,
+    "title": "Does reuse still beat rebuilding in the AI era? (and how can DRIs help decide?)",
+    "submission_type": "Workshop",
+    "primary_category": "Community",
+    "secondary_category": "Software",
+    "confidence": "Medium",
+    "reasoning": "Workshop discusses reuse vs rebuild decisions in AI era, focused on digital research infrastructure practices and FAIR principles. While BioFAIR is life-sciences infrastructure, the discussion is about cross-cutting RSE practice and infrastructure policy affecting the profession."
+  },
+  {
+    "id": 1398185,
+    "serial_number": 24,
+    "title": "Experiments in Upskilling Researchers",
+    "submission_type": "Talk",
+    "primary_category": "Community",
+    "secondary_category": "N/A",
+    "confidence": "High",
+    "reasoning": "This talk focuses on training researchers—experiences delivering upskilling workshops, lessons learned about training delivery. It's about the profession of RSE and community/training practice, not a specific tool or research domain."
+  },
+  {
+    "id": 1400725,
+    "serial_number": 28,
+    "title": "From Theory to Demonstration: A Case Study in Engineering Demonstration Models",
+    "submission_type": "Talk",
+    "primary_category": "Software",
+    "secondary_category": "Research",
+    "confidence": "Medium",
+    "reasoning": "The talk centers on implementing a general-purpose numerical method (SPRE) in Python/JAX, applicable across domains, and demonstrating it through examples. It's cross-cutting software/technique work rather than domain-specific research."
+  },
+  {
+    "id": 1381382,
+    "serial_number": 18,
+    "title": "To Pin or Not to Pin: Reproducibility trade-offs in containerised research software",
+    "submission_type": "Talk",
+    "primary_category": "Software",
+    "secondary_category": "N/A",
+    "confidence": "High",
+    "reasoning": "This talk is about containerisation practices for research software maintenance - a cross-cutting software engineering topic applicable across domains, not tied to any specific research discipline."
+  },
+  {
+    "id": 1401491,
+    "serial_number": 29,
+    "title": "PyActiveStorage: Energy-Efficient Workflows for Exascale Data",
+    "submission_type": "Poster & Lightning Talk",
+    "primary_category": "Software",
+    "secondary_category": "Research",
+    "confidence": "High",
+    "reasoning": "PyActiveStorage is a general-purpose cross-cutting library for active/data-proximate computing on NetCDF4/HDF5 datasets, addressing I/O bottlenecks and energy efficiency at exascale. While motivated by climate modeling, the tool itself is a general infrastructure applicable across data-intensive domains."
+  },
+  {
+    "id": 1401953,
+    "serial_number": 30,
+    "title": "FAIRifying the research journey: equipping RSEs to replace opaque assessments with community-led FAIR definitions",
+    "submission_type": "Talk",
+    "primary_category": "Community",
+    "secondary_category": "Software",
+    "confidence": "Medium",
+    "reasoning": "The talk centers on FAIR assessment frameworks and tools that cut across domains, focused on transparent community-led standards and policy/infrastructure adopted institutionally. This aligns with Community (FAIR, cross-organisation policy) with Software as secondary given the tooling emphasis."
+  },
+  {
+    "id": 1419616,
+    "serial_number": 106,
+    "title": "How many RSEs (and related roles) does it take to change a lightbulb in a cage? How RSEs are shaping UK TRE infrastructure",
+    "submission_type": "Talk",
+    "primary_category": "Community",
+    "secondary_category": "Software",
+    "confidence": "Medium",
+    "reasoning": "The talk focuses on the diverse roles of RSEs and adjacent professionals in shaping TRE infrastructure, emphasizing people, roles, and cross-organisation collaboration rather than a specific tool or research domain."
+  },
+  {
+    "id": 1500678,
+    "serial_number": 225,
+    "title": "Exploring Kiro for Science Productivity",
+    "submission_type": "Workshop",
+    "primary_category": "Software",
+    "secondary_category": "N/A",
+    "confidence": "High",
+    "reasoning": "Workshop introducing Kiro, an AI coding productivity tool, applicable across research use cases — a general cross-cutting software tool for RSEs."
+  },
+  {
+    "id": 1415349,
+    "serial_number": 54,
+    "title": "MooBench: A micro-benchmark for performance overhead measurement of observability tools",
+    "submission_type": "Research Software Publication (Talk)",
+    "primary_category": "Software",
+    "secondary_category": "Research",
+    "confidence": "High",
+    "reasoning": "MooBench is a general-purpose micro-benchmark for measuring overhead of observability tools across ecosystems, a cross-cutting software engineering tool for RSEs."
+  },
+  {
+    "id": 1402935,
+    "serial_number": 31,
+    "title": "Reproducible analytical pipelines for healthcare simulation: Quarto-based guide and dual Python/R implementations",
+    "submission_type": "Poster & Lightning Talk",
+    "primary_category": "Research",
+    "secondary_category": "Software",
+    "confidence": "Medium",
+    "reasoning": "This is domain-specific (healthcare simulation via DES) tooling and guidance, purpose-built for a particular research area, though it applies RSE reproducibility practices."
+  },
+  {
+    "id": 1420606,
+    "serial_number": 131,
+    "title": "It’s not easy being green: embedding environmental sustainability in training material",
+    "submission_type": "Birds of a Feather",
+    "primary_category": "Community",
+    "secondary_category": "Software",
+    "confidence": "High",
+    "reasoning": "Focuses on embedding sustainability practices into RSE training curricula, a profession-wide training/community initiative rather than a specific tool or research domain."
+  },
+  {
+    "id": 1420590,
+    "serial_number": 127,
+    "title": "The SHAREing High-Level Performance Assessment Methodology",
+    "submission_type": "Poster & Lightning Talk",
+    "primary_category": "Software",
+    "secondary_category": "Community",
+    "confidence": "High",
+    "reasoning": "A cross-cutting methodology for HPC code performance assessment applicable across research domains, serving RSEs and researchers broadly."
+  },
+  {
+    "id": 1505763,
+    "serial_number": 226,
+    "title": "Social Infrastructure: The Human Work Behind Open Scientific Computing",
+    "submission_type": "Talk",
+    "primary_category": "Community",
+    "secondary_category": "N/A",
+    "confidence": "High",
+    "reasoning": "This talk focuses on people, community-building, and soft skills in open source scientific computing communities, clearly a Community-focused submission."
+  },
+  {
+    "id": 1505774,
+    "serial_number": 227,
+    "title": "We’ve Built a Great RSE Community. Now Let’s Try to Save the Planet.",
+    "submission_type": "Talk",
+    "primary_category": "Community",
+    "secondary_category": "N/A",
+    "confidence": "High",
+    "reasoning": "This talk is about the RSE profession's collective role in environmental sustainability advocacy and policy response — a community/profession-wide initiative rather than a specific tool or research domain."
+  },
+  {
+    "id": 1421950,
+    "serial_number": 213,
+    "title": "Speed vs Structure: Building Reproducible AI Workflows with the UCL Unified AI Research Platform",
+    "submission_type": "Walkthrough",
+    "primary_category": "Software",
+    "secondary_category": "Research",
+    "confidence": "High",
+    "reasoning": "The talk focuses on UCL's general-purpose Kubernetes-based AI research platform and reproducible workflow practices, applicable across domains despite using a fetal ultrasound example as illustration."
+  },
+  {
+    "id": 1419330,
+    "serial_number": 92,
+    "title": "Code Translation using Large Language Models: What's the role of the Research Software Engineer?",
+    "submission_type": "Talk",
+    "primary_category": "Software",
+    "secondary_category": "Community",
+    "confidence": "Medium",
+    "reasoning": "The talk centers on a general-purpose LLM-based code translation plugin/technique applicable across research domains, discussing RSE role and best practices. Though demonstrated on statistics packages, the tooling and methodology are cross-cutting."
+  },
+  {
+    "id": 1409248,
+    "serial_number": 42,
+    "title": "How-to: Regional RSE Groups",
+    "submission_type": "Workshop",
+    "primary_category": "Community",
+    "secondary_category": "N/A",
+    "confidence": "High",
+    "reasoning": "This session is explicitly about building and sustaining regional RSE community groups, a profession/community-building activity."
+  },
+  {
+    "id": 1420439,
+    "serial_number": 120,
+    "title": "The Journal of Open Source Software - An Introduction and Recent Changes",
+    "submission_type": "Poster & Lightning Talk",
+    "primary_category": "Community",
+    "secondary_category": "N/A",
+    "confidence": "High",
+    "reasoning": "JOSS is a recognition venue for RSEs' software contributions, a profession-wide initiative about credit and community engagement rather than a specific tool or scientific domain."
+  },
+  {
+    "id": 1499926,
+    "serial_number": 222,
+    "title": "From Bottleneck to Breakthrough: A Hands-On Workflow for Profiling and Optimizing HPC Applications on AMD GPUs",
+    "submission_type": "Workshop",
+    "primary_category": "Software",
+    "secondary_category": "N/A",
+    "confidence": "High",
+    "reasoning": "Hands-on tutorial on GPU profiling/optimization workflow using AMD tools - a cross-cutting HPC performance technique applicable across domains, not tied to a specific research field despite using a shallow-water solver as example."
+  },
+  {
+    "id": 1499929,
+    "serial_number": 223,
+    "title": "Accelerating research by leveraging AWS: AIRR Cloud Pilot and SENSE",
+    "submission_type": null,
+    "primary_category": "Software",
+    "secondary_category": "Community",
+    "confidence": "Medium",
+    "reasoning": "The talk focuses on cloud infrastructure (AWS) as a general-purpose platform for research computing, including AI compute access and data storage services. While SENSE relates to energy data, the emphasis is on cross-cutting cloud infrastructure serving researchers broadly."
+  },
+  {
+    "id": 1499934,
+    "serial_number": 224,
+    "title": "Introduction to AIRR",
+    "submission_type": "Workshop",
+    "primary_category": "Software",
+    "secondary_category": "Community",
+    "confidence": "High",
+    "reasoning": "Workshop introduces general-purpose AI compute infrastructure (Isambard-AI, Zenith) and how to access/use it — cross-cutting platform for RSEs, not tied to a specific research domain."
+  },
+  {
+    "id": 1408775,
+    "serial_number": 38,
+    "title": "Imago - making satellite data useful, usable and used",
+    "submission_type": "Poster & Lightning Talk",
+    "primary_category": "Research",
+    "secondary_category": "Software",
+    "confidence": "High",
+    "reasoning": "Imago is a domain-specific project transforming satellite Earth Observation data for social science and policymaking, including a purpose-built Python library and a specific data product (Sun Probability Framework). It's software built for a particular research domain."
+  },
+  {
+    "id": 1421559,
+    "serial_number": 199,
+    "title": "Following Scrum with part-time teams: Experiences of delivering high-quality Git and GitHub documentation for Met Office employees, partners and collaborators",
+    "submission_type": "Talk",
+    "primary_category": "Community",
+    "secondary_category": "Software",
+    "confidence": "Medium",
+    "reasoning": "This talk focuses on team dynamics, volunteer community organization, and Scrum practices with part-time contributors delivering documentation. It centers on people, process, and community-building rather than a specific tool or research domain."
+  },
+  {
+    "id": 1419557,
+    "serial_number": 105,
+    "title": "Training to Protect Research Integrity in the Age of AI-assisted Coding",
+    "submission_type": "Talk",
+    "primary_category": "Community",
+    "secondary_category": "Software",
+    "confidence": "High",
+    "reasoning": "This talk centers on training programs, curriculum development, and a Community of Practice for RSEs around AI-assisted coding, which is about people, profession, and training rather than a specific tool or research domain."
+  },
+  {
+    "id": 1507221,
+    "serial_number": 228,
+    "title": "Reflecting on things that didn’t go to plan",
+    "submission_type": "Talk",
+    "primary_category": "Community",
+    "secondary_category": "N/A",
+    "confidence": "High",
+    "reasoning": "Personal reflection on career/life experiences applied to RSE work — about people and the profession, not a specific tool or research domain."
+  },
+  {
+    "id": 1507231,
+    "serial_number": 229,
+    "title": "From Code to Civic Power: Rethinking Research Software as Public Infrastructure",
+    "submission_type": "Talk",
+    "primary_category": "Research",
+    "secondary_category": "Community",
+    "confidence": "Low",
+    "reasoning": "This talk applies research software principles to civic/governance infrastructure, discussing a specific project (OpenGov Africa) for public participation and transparency. It's about software serving a specific domain (civic/governance) rather than general RSE tooling, though it also touches on broader questions of software's societal role."
+  },
+  {
+    "id": 1420942,
+    "serial_number": 154,
+    "title": "Cloud-Native SIG Workshop: Deploying a Web Application with Kubernetes",
+    "submission_type": "Workshop",
+    "primary_category": "Software",
+    "secondary_category": "Community",
+    "confidence": "High",
+    "reasoning": "Hands-on workshop on Kubernetes deployment, a cross-cutting general-purpose tool applicable to RSEs across domains. Also tied to a SIG (community), but the core content is the tool/technique."
+  },
+  {
+    "id": 1421010,
+    "serial_number": 160,
+    "title": "DIRECT: How a community idea evolved into a thriving Digital Research Competencies Framework",
+    "submission_type": "Talk",
+    "primary_category": "Community",
+    "secondary_category": "N/A",
+    "confidence": "High",
+    "reasoning": "This talk is about a competency framework for RSEs and digital research technical professionals, focused on career development, recognition, and community-driven skill definition — clearly a profession/community initiative."
+  },
+  {
+    "id": 1420447,
+    "serial_number": 121,
+    "title": "A Community Led Risk Register for Responsible AI in Research Software Engineering",
+    "submission_type": "Birds of a Feather",
+    "primary_category": "Community",
+    "secondary_category": "Software",
+    "confidence": "High",
+    "reasoning": "This is a community-led initiative about responsible AI adoption in the RSE profession, creating a shared framework/resource. It's about the profession and community practice, not a specific tool or domain research."
+  },
+  {
+    "id": 1420780,
+    "serial_number": 144,
+    "title": "Evolving the RSE role in the age of generative and agentic AI",
+    "submission_type": "Talk",
+    "primary_category": "Community",
+    "secondary_category": "Software",
+    "confidence": "High",
+    "reasoning": "This talk focuses on the future of the RSE profession and role in light of GenAI, developed at community workshops, addressing career identity and profession-wide concerns."
+  },
+  {
+    "id": 1420604,
+    "serial_number": 130,
+    "title": "PRO4RS - Developing, aligning, and implementing policies on research software for research performing organisations",
+    "submission_type": "Talk",
+    "primary_category": "Community",
+    "secondary_category": "N/A",
+    "confidence": "High",
+    "reasoning": "This talk is about institutional policy frameworks for recognizing and supporting research software and its personnel — a profession-wide, cross-organisation initiative focused on people, recognition, and policy rather than a specific tool or domain."
+  }
+]

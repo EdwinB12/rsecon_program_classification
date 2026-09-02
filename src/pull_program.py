@@ -24,7 +24,7 @@ from html.parser import HTMLParser
 from pathlib import Path
 
 ENDPOINT = "https://app.oxfordabstracts.com/v1/graphql"
-EVENT_IDS = {2023: 4430, 2024: 49081, 2025: 75166}
+EVENT_IDS = {2023: 4430, 2024: 49081, 2025: 75166, 2026: 76908}
 SECRETS_PATH = Path(".secrets")
 DATA_DIR = Path("data")
 
