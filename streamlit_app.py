@@ -86,38 +86,38 @@ st.title("RSECon program classification")
 st.markdown(
     """
     A data view of the **Research Software Engineering Conference (RSECon)** programmes
-    for **2023, 2024, and 2025**. Every accepted submission's abstract is read by an LLM
+    from **2023 to 2026**. Every accepted submission's abstract is read by an LLM
     (Claude Opus 4.7) and classified into one of three buckets — **Software**,
     **Research**, or **Community** — with a short written justification.
 
     The aim is to ask: *what kind of work is the RSE community presenting at its annual
-    conference, and how is that mix changing year on year?* Use the sidebar to filter,
-    the charts to compare years and session formats, and the table at the bottom to read
-    the model's reasoning on individual submissions.
+    conference, and how is that mix changing year on year?* Use the sidebar to filter by
+    year, the charts to compare categories and session formats, and the table at the
+    bottom to read the model's reasoning on individual submissions.
     """
 )
 
 # ============================================== CLASSIFICATION SCHEME ====
-st.subheader("How submissions are classified")
-st.markdown(
-    "Below is how we defined the three categories for classification. The LLM was given these definitions as part of its prompt, and used them to classify each submission into one of the three buckets based on the submissions title and abstract."
-)
-
-if CLASSIFICATIONS_PATH.exists():
-    scheme_text = CLASSIFICATIONS_PATH.read_text()
-    # Hide the "Other" fallback item in the dashboard without touching the source file.
-    scheme_text = (
-        re.sub(
-            r"\n*\d+\.\s*Other:.*?(?=\n\d+\.|\Z)",
-            "",
-            scheme_text,
-            flags=re.DOTALL,
-        ).rstrip()
-        + "\n"
+with st.expander("How submissions are classified", expanded=False):
+    st.markdown(
+        "Below is how we defined the three categories for classification. The LLM was given these definitions as part of its prompt, and used them to classify each submission into one of the three buckets based on the submissions title and abstract."
     )
-    st.markdown(scheme_text)
-else:
-    st.info("CLASSIFICATIONS.md not found.")
+
+    if CLASSIFICATIONS_PATH.exists():
+        scheme_text = CLASSIFICATIONS_PATH.read_text()
+        # Hide the "Other" fallback item in the dashboard without touching the source file.
+        scheme_text = (
+            re.sub(
+                r"\n*\d+\.\s*Other:.*?(?=\n\d+\.|\Z)",
+                "",
+                scheme_text,
+                flags=re.DOTALL,
+            ).rstrip()
+            + "\n"
+        )
+        st.markdown(scheme_text)
+    else:
+        st.info("CLASSIFICATIONS.md not found.")
 
 st.markdown("---")
 
@@ -127,15 +127,8 @@ with st.sidebar:
     years = st.multiselect(
         "Year", sorted(df["year"].unique()), default=sorted(df["year"].unique())
     )
-    primaries = st.multiselect("Category", CATEGORY_ORDER, default=CATEGORY_ORDER)
-    sub_types = sorted(df["submission_type"].unique())
-    types = st.multiselect("Submission type", sub_types, default=sub_types)
 
-mask = (
-    df["year"].isin(years)
-    & df["primary_category"].isin(primaries)
-    & df["submission_type"].isin(types)
-)
+mask = df["year"].isin(years)
 view = df[mask].copy()
 
 # ================================================== HEADLINE METRICS ====
@@ -168,42 +161,142 @@ if not len(view):
 # ============================================== CHART: BY YEAR =========
 st.subheader("Category by year")
 counts = view.groupby(["year", "primary_category"]).size().reset_index(name="count")
-fig = px.bar(
-    counts,
-    x="year",
-    y="count",
-    color="primary_category",
-    category_orders={"primary_category": CATEGORY_ORDER},
-    color_discrete_map=CATEGORY_COLORS,
-    barmode="group",
-    text="count",
-)
-fig.update_traces(textposition="outside")
-fig.update_layout(xaxis=dict(tickmode="linear"), bargap=0.25, legend_title_text="")
+year_totals = view.groupby("year").size().reset_index(name="total")
+counts = counts.merge(year_totals, on="year")
+counts["pct"] = counts["count"] / counts["total"] * 100
+
+year_as_line = st.toggle("Show as line chart", key="year_as_line")
+
+if not year_as_line:
+    fig = px.bar(
+        counts,
+        x="year",
+        y="pct",
+        color="primary_category",
+        category_orders={"primary_category": CATEGORY_ORDER},
+        color_discrete_map=CATEGORY_COLORS,
+        barmode="group",
+        text=counts["pct"].map(lambda v: f"{v:.0f}%"),
+    )
+    fig.update_traces(textposition="outside")
+    fig.update_layout(
+        xaxis=dict(tickmode="linear"),
+        yaxis_title="% of submissions",
+        bargap=0.25,
+        legend_title_text="",
+    )
+else:
+    fig = px.line(
+        counts,
+        x="year",
+        y="pct",
+        color="primary_category",
+        category_orders={"primary_category": CATEGORY_ORDER},
+        color_discrete_map=CATEGORY_COLORS,
+        markers=True,
+    )
+    fig.update_layout(
+        xaxis=dict(tickmode="linear"),
+        yaxis_title="% of submissions",
+        legend_title_text="",
+    )
 st.plotly_chart(fig, use_container_width=True)
 
 # ===================================== CHART: BY SUBMISSION TYPE ========
 st.subheader("Category by submission type")
-type_counts = (
-    view.groupby(["submission_type", "primary_category"])
-    .size()
-    .reset_index(name="count")
-)
-type_order = view["submission_type"].value_counts().index.tolist()
-fig2 = px.bar(
-    type_counts,
-    x="submission_type",
-    y="count",
-    color="primary_category",
-    category_orders={
-        "primary_category": CATEGORY_ORDER,
-        "submission_type": type_order,
-    },
-    color_discrete_map=CATEGORY_COLORS,
-    barmode="stack",
-)
-fig2.update_layout(xaxis_tickangle=-25, legend_title_text="", xaxis_title="")
-st.plotly_chart(fig2, use_container_width=True)
+SUBMISSION_TYPES_SHOWN = [
+    "Talk",
+    "Poster & Lightning Talk",
+    "Walkthrough",
+    "Workshop",
+]
+type_view = view[view["submission_type"].isin(SUBMISSION_TYPES_SHOWN)]
+type_order = type_view["submission_type"].value_counts().index.tolist()
+
+split_by_year = st.toggle("Split by year")
+
+if not split_by_year:
+    type_counts = (
+        type_view.groupby(["submission_type", "primary_category"])
+        .size()
+        .reset_index(name="count")
+    )
+    type_totals = type_view.groupby("submission_type").size().reset_index(name="total")
+    type_counts = type_counts.merge(type_totals, on="submission_type")
+    type_counts["pct"] = type_counts["count"] / type_counts["total"] * 100
+    fig2 = px.bar(
+        type_counts,
+        x="submission_type",
+        y="pct",
+        color="primary_category",
+        category_orders={
+            "primary_category": CATEGORY_ORDER,
+            "submission_type": type_order,
+        },
+        color_discrete_map=CATEGORY_COLORS,
+        barmode="stack",
+    )
+    fig2.update_layout(
+        xaxis_tickangle=-25,
+        yaxis_title="% of submissions",
+        legend_title_text="",
+        xaxis_title="",
+    )
+    st.plotly_chart(fig2, use_container_width=True)
+else:
+    type_year_counts = (
+        type_view.groupby(["year", "submission_type", "primary_category"])
+        .size()
+        .reset_index(name="count")
+    )
+    type_year_totals = (
+        type_view.groupby(["year", "submission_type"]).size().reset_index(name="total")
+    )
+    type_year_counts = type_year_counts.merge(type_year_totals, on=["year", "submission_type"])
+    type_year_counts["pct"] = type_year_counts["count"] / type_year_counts["total"] * 100
+
+    type_year_as_line = st.toggle("Show as line chart", key="type_year_as_line")
+
+    if not type_year_as_line:
+        fig3 = px.bar(
+            type_year_counts,
+            x="submission_type",
+            y="pct",
+            color="primary_category",
+            facet_col="year",
+            category_orders={
+                "primary_category": CATEGORY_ORDER,
+                "submission_type": type_order,
+                "year": sorted(view["year"].unique()),
+            },
+            color_discrete_map=CATEGORY_COLORS,
+            barmode="stack",
+        )
+        fig3.update_layout(legend_title_text="")
+        fig3.update_xaxes(tickangle=-25, title="")
+        fig3.update_yaxes(title="")
+        fig3.update_yaxes(title="% of submissions", col=1)
+        fig3.for_each_annotation(lambda a: a.update(text=a.text.replace("year=", "")))
+    else:
+        fig3 = px.line(
+            type_year_counts,
+            x="year",
+            y="pct",
+            color="primary_category",
+            facet_col="submission_type",
+            category_orders={
+                "primary_category": CATEGORY_ORDER,
+                "submission_type": type_order,
+            },
+            color_discrete_map=CATEGORY_COLORS,
+            markers=True,
+        )
+        fig3.update_layout(legend_title_text="")
+        fig3.update_xaxes(tickmode="linear", title="")
+        fig3.update_yaxes(title="")
+        fig3.update_yaxes(title="% of submissions", col=1)
+        fig3.for_each_annotation(lambda a: a.update(text=a.text.replace("submission_type=", "")))
+    st.plotly_chart(fig3, use_container_width=True)
 
 # ========================================= EXPLORE TABLE ================
 st.subheader("Explore individual submissions")
